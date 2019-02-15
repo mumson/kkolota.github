@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adam Kowalski - Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,700|Saira:300,400,700&amp;subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class='welcome'>
+            <p>Witaj!</p>
+            <h1>Jestem Konrad Kołota</h1>
+            <h2>wed developer - freelancer</h2>
+            <!-- <button>zobacz moje portfolio</button> MAKE ACTIVE WHEN READY-->
+        </div>
+        <!-- <img src="img/photo1.png" alt="Zdjęcie Adam Kowalski"> -->
+    </header>
+    <section class='features clearfix'>
+        <h1>Tworzę bardzo dobre strony internetowe</h1>
+        <div class='feature'>
+            <img src="img/services1.png" alt="loga html js i css">
+            <h2>Nowoczesne i zgodne z aktualnymi standardami</h2>
+            <p class="description"></p>
+        </div>
+        <div class='feature'>
+            <img src="img/services2.png" alt="logo google">
+            <h2>Zoptymalizowane pod kątem przeglądarek internetowych</h2>
+            <p class="description"></p>
+        </div>
+        <div class='feature'>
+            <img src="img/services3.png" alt="urządzenia mobilne">
+            <h2>Świetnie wyglądające na urządzeniach mobilnych</h2>
+            <p class="description"></p>
+        </div>
+    </section>
+    <section class='portfolio'>
+        <h1>projekty, z których jestem dumny</h1>
+        <div class='project clearfix'>
+            <div class="web">
+                <a href='portfolio/projektTrol/projekt.html'><img src="img/portfolio3.png" alt="portfolio przykład 1"></a>
+            </div>
+            <div class="about">
+                <h2>Projekt troll</h2>
+                <p>Pierwsze spotkanie z flexboxem i jego wykorzystanie do ustawienia prostego interfejsu 'sklepu'.</p>
+            </div>
+        </div>
+        <div class='project clearfix'>
+            <div class="web">
+                <a href='portfolio/scrollAnimation/index.html'><img src="img/portfolio1.png" alt="portfolio przykład 2"></a>
+            </div>
+            <div class="about">
+                <h2>Scroll animation</h2>
+                <p>Wykorzystanie prostych animacji do uzyskania ciekawych efektów.</p>
+            </div>
+        </div>
+        <div class='project clearfix'>
+            <div class="web">
+                <a href='portfolio/mousePos/idnex.html'><img src="img/portfolio11.png" alt="portfolio przykład 3"></a>
+            </div>
+            <div class="about">
+                <h2>Kolor według pozycji kursora</h2>
+                <p>Prosty program napisany w JS pokazujący pozycję kursora na ekranie przeglądarki i zmieniający kolory wraz ze zmianą położenia.</p>
+            </div>
+        </div>
+        <div class='project clearfix'>
+            <div class="web">
+                <a href='portfolio/brightness/index.html'><img src="img/portfolio22.png" alt="portfolio przykład 4"></a>
+            </div>
+            <div class="about">
+                <h2>Rozjaśnianie</h2>
+                <p>Prosty kod JS pozwalający zmieniać jasność strony przy użyciu strzałki w górę i w dół.</p>
+            </div>
+        </div>
+
+    </section>
+    <section class='slogan'>
+        <div class='bg'>
+            <h1>Moje życiowe motto</h1>
+            <p class='text'>"Otóż praca daje okazje odnalezienia samego siebie. Własnej rzeczywistości dla siebie i
+                nikogo innego. Czegoś, co innym nie jest dane."</p>
+            <p class="author">Joseph Conrad - Jądro Ciemności</p>
+        </div>
+    </section>
+    <section class='hobby clearfix'>
+        <h1>W wolnym czasie uwielbiam</h1>
+        <div class="item">
+            <p>Grać na gitarze</p>
+        </div>
+        <div class="item">
+            <p>Zgłębiać mitologię nordycką</p>
+        </div>
+        <div class="item">
+            <p>Doskonalić swoje umiejętności</p>
+        </div>
+        <div class="item">
+            <p>Śledzić nowinki technologiczne</p>
+        </div>
+    </section>
+    <section class='contact'>
+        <h1>Skontaktuj się ze mną</h1>
+        <div class="wrap clarfix clearfix">
+            <form action='mail.php' method='POST'>
+                <input name='name' type="text" placeholder='Twoje imię' required>
+                <input name='email' type="text" placeholder='Twój email' required>
+                <textarea name='message' placeholder='treść wiadomości' required></textarea>
+                <button>Wyślij wiadomość</button>
+            </form>
+
+            <div class="socials">
+                <div class="social clearfix"><img src="img/contact1.png" alt="kontakt"><span><a href="mailto:konradkolota@gmail.com">Mail me</a></span></div>
+                <!-- <div class="social clearfix"><img src="img/contact2.png" alt="kontakt"><span>123456789</span></div> -->
+                <div class="social clearfix"><img src="img/contact3.png" alt="kontakt"><span><a href='https://www.facebook.com/profile.php?id=100002588645558'>Konrad Kołota</a></span></div>
+                <!-- <div class="social clearfix"><img src="img/contact4.png" alt="kontakt"><span>@adamkowalski</span></div> -->
+                <div class="social clearfix"><img src="img/contact5.png" alt="kontakt"><span><a href="https://pl.linkedin.com/in/konrad-kołota-8666a5162">Konrad Kołota</a></span></div>
+            </div>
+        </div>
+    </section>
+    <footer>&copy; Konrad Kołota</footer>
+</body>
+
+</html>
